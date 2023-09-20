@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   baseui:
-    path: plugins/baseui
+    path: ../baseui
 dev_dependencies:
   flutter_test:
     sdk: flutter

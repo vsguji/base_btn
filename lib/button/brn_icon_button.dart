@@ -1,4 +1,5 @@
-import 'package:base_btn_example/extension/base_button_common_config.dart';
+
+import 'package:base_btn/extension/base_button_common_config.dart';
 import 'package:baseui/baseui.dart';
 import 'package:flutter/material.dart';
 
@@ -182,7 +183,7 @@ class _BrnIconButtonState extends State<BrnIconButton> {
                   widget.name,
                   style: widget.style ??
                       TextStyle(
-                        color: BrnThemeConfigurator.instance
+                        color: BaseThemeConfig.instance
                             .getConfig()
                             .commonConfig
                             .colorTextSecondary,

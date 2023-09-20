@@ -19,7 +19,7 @@ packages:
   baseui:
     dependency: transitive
     description:
-      path: "../plugins/baseui"
+      path: "../../baseui"
       relative: true
     source: path
     version: "1.0.2"
