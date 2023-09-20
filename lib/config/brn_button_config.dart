@@ -1,5 +1,3 @@
-
-import 'package:base_btn/extension/base_total_config.dart';
 import 'package:baseui/baseui.dart';
 import '../extension/base_default_config_utils.dart';
 
@@ -25,10 +23,6 @@ class BrnButtonConfig extends BaseConfig {
 
   /// 默认为 6
   double? _bigButtonRadius;
-
-  // double get bigButtonRadius =>
-  //     _bigButtonRadius ??
-  //     BaseDefaultConfigUtils.defaultButtonConfig.bigButtonRadius;
 
   double get bigButtonRadius =>
       _bigButtonRadius ??
@@ -79,15 +73,15 @@ class BrnButtonConfig extends BaseConfig {
       currentLevelCommonConfig: currentLevelCommonConfig,
     );
 
-    BrnButtonConfig userConfig =
-        BaseThemeConfig.instance.getConfig(configId: configId).buttonConfig;
+    // BrnButtonConfig userConfig =
+    //     BaseThemeConfig.instance.getConfig(configId: configId).buttonConfig;
 
-    _bigButtonRadius ??= userConfig._bigButtonRadius;
-    _bigButtonHeight ??= userConfig._bigButtonHeight;
-    _bigButtonFontSize ??= userConfig._bigButtonFontSize;
-    _smallButtonRadius ??= userConfig._smallButtonRadius;
-    _smallButtonHeight ??= userConfig._smallButtonHeight;
-    _smallButtonFontSize ??= userConfig._smallButtonFontSize;
+    // _bigButtonRadius ??= userConfig._bigButtonRadius;
+    // _bigButtonHeight ??= userConfig._bigButtonHeight;
+    // _bigButtonFontSize ??= userConfig._bigButtonFontSize;
+    // _smallButtonRadius ??= userConfig._smallButtonRadius;
+    // _smallButtonHeight ??= userConfig._smallButtonHeight;
+    // _smallButtonFontSize ??= userConfig._smallButtonFontSize;
   }
 
   BrnButtonConfig copyWith({

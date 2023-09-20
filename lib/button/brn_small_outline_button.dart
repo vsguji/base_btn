@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'package:base_btn/extension/base_button_common_config.dart';
 import 'package:base_btn/extension/base_total_config.dart';
 import 'package:flutter/material.dart';
 import 'package:baseui/baseui.dart';

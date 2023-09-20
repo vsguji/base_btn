@@ -1,3 +1,12 @@
+/*
+ * @Author: lipeng 1162423147@qq.com
+ * @Date: 2023-08-23 13:58:49
+ * @LastEditors: lipeng 1162423147@qq.com
+ * @LastEditTime: 2023-09-20 22:43:49
+ * @FilePath: /base_btn/example/lib/main.dart
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+import 'package:base_btn/button/brn_big_ghost_button.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -31,8 +40,8 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion =
-          await _baseBtnPlugin.getPlatformVersion() ?? 'Unknown platform version';
+      platformVersion = await _baseBtnPlugin.getPlatformVersion() ??
+          'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -54,9 +63,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: Center(
-          child: Text('Running on: $_platformVersion\n'),
-        ),
+        body: BrnBigGhostButton(),
       ),
     );
   }
